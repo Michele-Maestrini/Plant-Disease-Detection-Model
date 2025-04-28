@@ -21,4 +21,3 @@ Two stages will be implemented to develop two models:
 * Hyperparameter-tuning using Bayesian optimization. The input for exploration/exploitation will come from three notable hyperparameters that are specific to Bayesian optimization and a component pertaining to the regularizer.
 * Testing using a FSL environment.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Michele-Maestrini/Plant-Disease-Detection-Model/blob/main/Plant_Disease_Detection_Model.ipynb)
