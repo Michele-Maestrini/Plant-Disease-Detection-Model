@@ -20,3 +20,5 @@ Two stages will be implemented to develop two models:
 * Training the network using a Siamese Network setup with a triplet loss function that embraces the hyperparameters that were optimally generated in the previous stage.
 * Hyperparameter-tuning using Bayesian optimization. The input for exploration/exploitation will come from three notable hyperparameters that are specific to Bayesian optimization and a component pertaining to the regularizer.
 * Testing using a FSL environment.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Michele-Maestrini/Plant-Disease-Detection-Model/blob/main/Plant_Disease_Detection_Model.ipynb)
