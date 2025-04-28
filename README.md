@@ -21,3 +21,55 @@ Two stages will be implemented to develop two models:
 * Hyperparameter-tuning using Bayesian optimization. The input for exploration/exploitation will come from three notable hyperparameters that are specific to Bayesian optimization and a component pertaining to the regularizer.
 * Testing using a FSL environment.
 
+# Gaining Access to the Implementation
+
+This repository contains the `Plant_Disease_Detection_Model_Project.ipynb` notebook and supporting files. Below are multiple ways to download and run the notebook without needing access to Google Drive.
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Michele-Maestrini/Plant-Disease-Detection-Model.git
+cd Plant-Disease-Detection-Model
+```
+
+The notebook `Plant_Disease_Detection_Model_Project.ipynb` will be in the project folder.
+
+## 2. Download via Browser
+
+1. Navigate to the repository on GitHub:  
+   `https://github.com/Michele-Maestrini/Plant-Disease-Detection-Model`  
+2. Click on `Plant_Disease_Detection_Model_Project.ipynb`.  
+3. Click **Raw**, then right-click and select **Save As…** to download the file locally.
+
+## 3. Download as ZIP
+
+1. On the repository main page, click **Code** → **Download ZIP**.  
+2. Unzip the downloaded archive:  
+   ```bash
+   unzip Plant-Disease-Detection-Model-main.zip
+   cd Plant-Disease-Detection-Model-main
+   ```
+
+## 4. Open in Google Colab (via Badge)
+
+Add this badge to your own fork or clone of the repo to enable one-click Colab access:
+
+```markdown
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Michele-Maestrini/Plant-Disease-Detection-Model/blob/main/Plant_Disease_Detection_Model_Project.ipynb)
+```
+
+## 5. Requirements
+
+- Python 3.7+  
+- TensorFlow, Keras, OpenCV, and other dependencies listed in the notebook.  
+
+You can install the Python dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+Repository maintained by Michele Maestrini.
+
